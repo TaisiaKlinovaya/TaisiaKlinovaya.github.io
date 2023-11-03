@@ -1,1 +1,8 @@
+<html>
+    <body style="background-color: #3E4F86;">
+        <h1>Sie sind ein Reisender im Labyrinth. Sind sie bereit?</h1>
 
+        <a href="Seite2.html">JA</a>
+        <a href="Seite21.html">NEIN</a>
+    </body>
+</html>
