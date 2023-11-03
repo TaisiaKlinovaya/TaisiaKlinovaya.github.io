@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 
 <html>
-  <body> 
+    <body style="background-color: #3E4F86;">
+        <h1>Vor ihnen sind zwei Verzweigungen, wo gehen Sie hin?</h1>
 
-  </body>
+        <a href="Seite3.html">LINKS</a>
+        <a href="Seite32.html">RECHTS</a>
+    </body>
 </html>
