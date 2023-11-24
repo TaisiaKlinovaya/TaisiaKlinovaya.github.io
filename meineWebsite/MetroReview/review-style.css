@@ -16,4 +16,5 @@ img{
 .text1{
     text-align: right;
     border: white, solid, 1px;
+    display: inline-block;
 }
