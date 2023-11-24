@@ -21,8 +21,6 @@ body {
 .image-text-box{
 	display: flex;
 	align-items:top;
-	display: inline-block;
-	width: 1000px;
 }
 
 img{
