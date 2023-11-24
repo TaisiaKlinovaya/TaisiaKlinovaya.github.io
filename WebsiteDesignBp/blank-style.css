@@ -11,9 +11,9 @@ body {
 	font-size:large;
 	text-align: center;
 	font-style: italic;
+	border-bottom: 20px, solid, black;
 }
 
 .menu-list{
 	margin: 20px;
-	flex-direction: row;
 }
