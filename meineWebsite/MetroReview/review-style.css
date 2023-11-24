@@ -5,5 +5,9 @@ section{
 
 aside{
     background-color: indigo;
-    display: inline-block;
+}
+.images{
+    display:inline-block;
+    width: 30%;
+    height: 30%;
 }
