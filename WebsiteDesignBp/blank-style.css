@@ -20,8 +20,8 @@ body {
 
 @keyframes bounce {
 	10% {left: 100px}
-	20% {left: 100px}
-	30% {left: 100px}
+	20% {left: 150px}
+	30% {left: 150px}
 }
 
 img{
