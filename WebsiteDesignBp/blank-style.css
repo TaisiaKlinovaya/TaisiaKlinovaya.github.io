@@ -20,7 +20,7 @@ body {
 
 .image-text-box{
 	display: flex;
-	align-items:center
+	align-items:top;
 }
 
 img{
