@@ -1,4 +1,9 @@
-<body>
+section{
     background-color:darkslategrey; 
     color: ghostwhite;"
-</body>
+}
+
+aside{
+    background-color: indigo;
+    display: inline-block;
+}
