@@ -39,5 +39,6 @@ img{
 .text-box{
 	display: inline-block;
 	text-align:center;
-	width: 200px;
+	width: 300px;
+	border: 1px;
 }
