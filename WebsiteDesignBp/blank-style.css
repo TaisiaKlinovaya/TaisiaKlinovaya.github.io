@@ -18,14 +18,13 @@ body {
 	margin: 20px;
 }
 
-img{
-	display: inline-block;
-	float: left;
-	max-width: 50%;
-	max-height: 50%;
+.image-text-box{
+	display: flex;
+	align-items:center
 }
 
-.lorum-text{
-	display: inline-block;
-	text-align: right;
+img{
+	max width: 50%;
+	max height: 50%;
+	margin-right: 10px;
 }
