@@ -19,7 +19,7 @@ body {
 }
 
 .image-text-box{
-	display: flex;
+	display:-webkit-box;
 	align-items:top;
 }
 
