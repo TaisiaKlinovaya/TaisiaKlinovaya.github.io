@@ -29,6 +29,8 @@ img{
 	height: 10%;
 	margin-right: 10px;
 	animation: bounce infinite;
+	animation-duration: 4s;
+	
 }
 
 
