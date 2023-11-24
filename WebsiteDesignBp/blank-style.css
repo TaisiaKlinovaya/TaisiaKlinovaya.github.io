@@ -19,9 +19,10 @@ body {
 }
 
 @keyframes bounce {
-	0% {left: 100px}
-	10% {bottom: 100px}
-	20% {right: 100px}
+	0% {left: 100px;}
+	10%{left: 100px;}
+	10% {bottom: 100px;}
+	20% {right: 100px;}
 	30% {top: 100px;}
 }
 
