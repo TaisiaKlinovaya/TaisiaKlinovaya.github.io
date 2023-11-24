@@ -1,24 +1,24 @@
 section{
-    background-color:darkslategrey; 
+    background-color:darkslategrey;     /* text section*/
     color: ghostwhite;"
     margin: 0px;
 }
 
 aside{
-    background-color: indigo;
+    background-color: indigo;   /* for images*/
     margin: 0px;
 }
 img{
-    display:inline-block;
+    display:inline-block;   /*all images */
     width: 10%;
     height: 10%;
 }
 .text1{
     text-align: right;
-    border: white, solid, 1px;
+    border: white, solid, 1px;  /* main text, story */
     display: inline-block;
 }
 
 .bpag{
-    text-align: left;
+    text-align: left;   /* bullet points about the game */
 }
