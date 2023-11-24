@@ -2,16 +2,16 @@
 body {
 
 	background-color:cornflowerblue;
-	color:blue;
+	color:white;
 }
 
 .headline {
-	color:blueviolet;
+	color:indianred;
 	font-size:large;
 	text-decoration: underline;
 	text-align: center;
 	font-style: italic;
-	border-bottom: 2px solid blueviolet;
+	border-bottom: 2px solid indianred;
 }
 
 .menu-list{
