@@ -17,3 +17,7 @@ body {
 .menu-list{
 	margin: 20px;
 }
+
+.image-text-box{
+	float:left;
+}
