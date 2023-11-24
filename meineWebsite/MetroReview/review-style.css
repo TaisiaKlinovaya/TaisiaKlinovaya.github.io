@@ -13,3 +13,7 @@ img{
     width: 10%;
     height: 10%;
 }
+.text1{
+    text-align: right;
+    border: white, solid, 1px;
+}
