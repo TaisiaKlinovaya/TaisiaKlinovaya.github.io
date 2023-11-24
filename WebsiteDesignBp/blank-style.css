@@ -7,5 +7,5 @@ body {
 
 .headline {
 	color:blueviolet;
-	text-decoration-style: wavy;
+	text-decoration: underline;
 }
