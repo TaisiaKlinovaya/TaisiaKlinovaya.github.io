@@ -10,5 +10,8 @@ body {
 	text-decoration: underline;
 	font-size:large;
 	text-align: center;
-	<hr>
+}
+
+.start{
+	font-style:italic;
 }
