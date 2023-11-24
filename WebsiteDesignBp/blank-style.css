@@ -24,9 +24,10 @@ body {
 }
 
 img{
+	text-align: right;
 	width: 20%;
 	height: 10%;
-	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .text-box{
