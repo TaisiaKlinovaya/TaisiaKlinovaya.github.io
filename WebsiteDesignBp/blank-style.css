@@ -26,4 +26,5 @@ img{
 
 .lorum-text{
 	display: inline-block;
+	text-align: right;
 }
