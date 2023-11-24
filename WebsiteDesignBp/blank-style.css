@@ -15,4 +15,5 @@ body {
 
 .menu-list{
 	margin: 20px;
+	flex-direction: row;
 }
