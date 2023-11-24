@@ -34,7 +34,7 @@ img{
 	width: 20%;
 	height: 10%;
 	margin-right: 10px;
-	animation-name: bounce;
+	animation: bounce infinite;
 }
 
 
