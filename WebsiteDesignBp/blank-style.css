@@ -8,6 +8,7 @@ body {
 .headline {
 	color:blueviolet;
 	font-size:large;
+	text-decoration: underline;
 	text-align: center;
 	font-style: italic;
 	border-bottom: 2px solid black;
