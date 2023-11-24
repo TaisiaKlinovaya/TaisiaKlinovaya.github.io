@@ -1,10 +1,12 @@
 section{
     background-color:darkslategrey; 
     color: ghostwhite;"
+    margin: 0px;
 }
 
 aside{
     background-color: indigo;
+    margin: 0px;
 }
 .images{
     display:inline-block;
