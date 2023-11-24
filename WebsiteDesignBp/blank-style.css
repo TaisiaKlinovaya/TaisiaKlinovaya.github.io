@@ -28,3 +28,8 @@ img{
 	height: 10%;
 	margin-right: 10px;
 }
+
+.text-box{
+	display: inline-block;
+	width: 200px;
+}
