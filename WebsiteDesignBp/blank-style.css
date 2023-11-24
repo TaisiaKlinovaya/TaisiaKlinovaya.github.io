@@ -20,8 +20,8 @@ body {
 
 @keyframes bounce {
 	10% {left: 100px}
-	15% {left: 150px}
-	20% {left: 200px}
+	20% {left: 150px}
+	30% {left: 200px}
 }
 
 img{
@@ -30,7 +30,6 @@ img{
 	position: relative;
 	animation: bounce infinite;
 	animation-duration: 4s;
-	animation-delay: 2s;
 
 }
 
