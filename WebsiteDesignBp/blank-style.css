@@ -19,9 +19,9 @@ body {
 }
 
 @keyframes bounce {
-	10% {right: 100px}
-	15% {top;: 150px}
-	20% {bottom: 200px}
+	10% {left: 100px}
+	15% {left: 150px}
+	20% {left: 200px}
 }
 
 img{
