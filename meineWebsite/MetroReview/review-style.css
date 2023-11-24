@@ -8,8 +8,8 @@ aside{
     background-color: indigo;
     margin: 0px;
 }
-.images{
+img{
     display:inline-block;
-    width: 3%x;
+    width: 3%;
     height: 3%;
 }
