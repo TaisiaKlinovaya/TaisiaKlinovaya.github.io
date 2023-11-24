@@ -30,6 +30,7 @@ img{
 	position: relative;
 	animation: bounce infinite;
 	animation-duration: 4s;
+	animation-delay: 1s;
 
 }
 
