@@ -10,7 +10,7 @@ body {
 	font-size:large;
 	text-align: center;
 	font-style: italic;
-	border-bottom: solid, black;
+	border-bottom: 2px solid black;
 }
 
 .menu-list{
