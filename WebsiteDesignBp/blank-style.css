@@ -27,8 +27,8 @@ body {
 }
 
 img{
-	width: 20%;
-	height: 25%;
+	width: 10%;
+	height: 15%;
 	position: relative;
 	animation: bounce infinite;
 	animation-duration: 4s;
