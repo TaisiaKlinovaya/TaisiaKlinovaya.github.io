@@ -37,5 +37,7 @@ img{
 
 
 .text-box{
+	display: inline-block;
 	text-align:center;
+
 }
