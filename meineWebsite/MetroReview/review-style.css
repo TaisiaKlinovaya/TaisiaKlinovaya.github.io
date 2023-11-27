@@ -17,7 +17,7 @@ body{
 }
 
 section, aside, header{
-    background-color: black;
+    margin: 0;
 }
 
 html, header, section, aside{
