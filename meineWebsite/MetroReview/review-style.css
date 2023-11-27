@@ -4,7 +4,7 @@ section{
     margin: 0px;
 }
 
-body, h1, h2, h3, p, img, section, aside {
+body, section, aside {
     margin: 0;
     padding: 0;
 }
@@ -21,11 +21,6 @@ body{
     padding: 0px;
 }
 
-html, header, section, aside{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 .overlay {
     position: absolute;
     top: 0;
