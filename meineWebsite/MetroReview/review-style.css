@@ -3,17 +3,17 @@ section{
     color: ghostwhite;"
     margin: 0px;
 }
-header, section, aside {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+
 .header{
     position: relative;
     width: 100%;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 .overlay {
