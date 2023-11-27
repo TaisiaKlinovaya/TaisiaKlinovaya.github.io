@@ -6,6 +6,10 @@ section{
     padding: 20px;
 }
 
+.container{
+    display: flex;
+}
+
 .bpag{
     text-align: left;   /* bullet points about the game */
 }
@@ -24,9 +28,6 @@ body{
 
 
 
-.container{
-    display: flex;
-}
 
 .header{
     position: relative;
