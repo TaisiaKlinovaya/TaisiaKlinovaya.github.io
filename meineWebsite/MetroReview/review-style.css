@@ -24,7 +24,9 @@ body{
 
 
 
-
+.container{
+    display: flex;
+}
 
 .header{
     position: relative;
@@ -32,7 +34,7 @@ body{
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-    margin-bottom: solid, black, 10px;
+    border-bottom: solid, black, 10px;
     color: ghostwhite;
 }
 
