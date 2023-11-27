@@ -1,5 +1,5 @@
 section{
-    background-image:linear-gradient(to bottom, rgba(45, 42, 42, 0.7), rgba(128, 121, 121, 0.7);   /* text section*/
+    background-color: rgba(128, 121, 121, 0.7) /* text section*/
     color: ghostwhite;
     margin: 0px;
 }
