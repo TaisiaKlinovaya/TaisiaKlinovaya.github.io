@@ -3,17 +3,17 @@ section{
         box-sizing: border-box;
         background-color: rgba(128, 121, 121, 0.7);
         color: ghostwhite;
-        margin: 0;
+        margin: 10px;
         padding: 20px;
         display: inline-block;
         border: solid white 2px;
-        height: 100px;
+        height: 200px;
 }
 
 .container{
     display: flex;
     text-align: center;
-    height: 100px;
+    height: 200px;
 }
 
 .bpag{
