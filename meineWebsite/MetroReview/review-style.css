@@ -20,6 +20,11 @@ body{
 }
 
 
+section, aside{
+    #grad {
+        background-image: linear-gradient(to bottom, rgba(45, 42, 42, 0.7)), rgba(128, 121, 121, 0.7));
+    }
+}
 
 
 
@@ -29,9 +34,6 @@ body{
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-    #grad {
-        background-image: linear-gradient(to bottom, rgba(45, 42, 42, 0.7)), rgba(128, 121, 121, 0.7));
-    }
 }
 
 .overlay {
