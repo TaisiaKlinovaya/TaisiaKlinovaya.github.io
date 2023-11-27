@@ -1,5 +1,5 @@
 section{
-    background-color:rgb(91, 96, 94);     /* text section*/
+    background-color:rgba(128, 121, 121, 0.7);     /* text section*/
     color: ghostwhite;
     margin: 0px;
 }
@@ -47,7 +47,7 @@ body{
 }
 
 aside{
-    background-color:rgb(91, 96, 94);   /* for images*/
+    background-color:rgba(128, 121, 121, 0.7);   /* for images*/
     margin: 0px;
 }
 img{
