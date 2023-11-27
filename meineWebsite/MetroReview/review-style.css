@@ -1,12 +1,15 @@
 section{
+    flex: 1;
     background-color: rgba(128, 121, 121, 0.7); /* text section*/
     color: ghostwhite;
     margin: 0px;
+    padding: 20px;
 }
 
 .bpag{
     text-align: left;   /* bullet points about the game */
 }
+
 
 
 
@@ -18,6 +21,8 @@ body, section, p, img, h3, aside {
 body{
     margin: 0;
 }
+
+
 
 
 
@@ -57,7 +62,6 @@ body{
     height: 250px;
     display: block;
 }
-
 
 
 
