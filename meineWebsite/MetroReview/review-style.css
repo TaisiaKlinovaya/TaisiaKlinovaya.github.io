@@ -27,7 +27,7 @@ body{
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-    margin-bottom: solid, black, 2px;
+    margin-bottom: solid, black, 10px;
 }
 
 .overlay {
@@ -48,7 +48,7 @@ body{
     font-size:50px;
     font-style:italic;
     text-decoration: underline;
-    text-shadow: 0 0 3px #7D7BCB
+    text-shadow: 0 0 3px rgba(128, 121, 121, 0.7);
 }
 
 .wallpp {
