@@ -7,6 +7,7 @@ section{
         padding: 20px;
         display: inline-block;
         border: solid white 2px;
+        height: 100px;
 }
 
 .container{
