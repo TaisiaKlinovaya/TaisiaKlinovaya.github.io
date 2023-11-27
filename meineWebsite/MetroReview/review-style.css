@@ -16,6 +16,11 @@ section{
     box-sizing: border-box;
 }
 
+html, header, section, aside{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 .overlay {
     position: absolute;
     top: 0;
