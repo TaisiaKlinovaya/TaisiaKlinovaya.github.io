@@ -1,5 +1,5 @@
 section{
-    background-color:darkslategrey;     /* text section*/
+    background-color: 128, 121, 121, 0.7;     /* text section*/
     color: ghostwhite;
     margin: 0px;
 }
@@ -47,7 +47,7 @@ body{
 }
 
 aside{
-    background-color: indigo;   /* for images*/
+    background-color: 128, 121, 121, 0.7;   /* for images*/
     margin: 0px;
 }
 img{
