@@ -11,6 +11,12 @@ section{
         height: 200px;
 }
 
+section img{
+    height: auto;
+    width:auto;
+    display: inline-block;
+}
+
 .container{
     display: flex;
     text-align: center;
