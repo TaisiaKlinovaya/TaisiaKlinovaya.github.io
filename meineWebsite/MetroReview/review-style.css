@@ -1,6 +1,6 @@
 section{
     background-color:darkslategrey;     /* text section*/
-    color: ghostwhite;"
+    color: ghostwhite;
     margin: 0px;
 }
 
@@ -14,10 +14,6 @@ body{
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-}
-
-section, aside, header{
-    margin: 0;
 }
 
 html, header, section, aside{
