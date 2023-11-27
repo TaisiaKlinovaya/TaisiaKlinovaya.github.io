@@ -34,7 +34,7 @@ html, header, section, aside{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(50%, 50%);
     text-align: center;
 }
 
@@ -54,13 +54,6 @@ img{
     display:inline-block;   /*all images */
     width: 10%;
     height: 10%;
-    margin: 0;
-    padding: 0;
-}
-.text1{
-    text-align: right;
-    border: white, solid, 1px;  /* main text, story */
-    display: inline-block;
 }
 
 .bpag{
