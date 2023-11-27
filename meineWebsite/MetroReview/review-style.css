@@ -6,6 +6,7 @@ section{
         margin: 0;
         padding: 20px;
         display: inline-block;
+        text-align: center;
 }
 
 .container{
