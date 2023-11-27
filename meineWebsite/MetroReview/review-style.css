@@ -6,12 +6,13 @@ section{
         margin: 0;
         padding: 20px;
         display: inline-block;
+        border: solid white 2px;
 }
 
 .container{
     display: flex;
     text-align: center;
-    border: solid black 2px;
+    height: 100px;
 }
 
 .bpag{
