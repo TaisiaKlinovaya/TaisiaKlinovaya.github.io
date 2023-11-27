@@ -4,7 +4,7 @@ section{
     margin: 0px;
 }
 
-.headthingy{
+.header{
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -45,6 +45,8 @@ img{
     display:inline-block;   /*all images */
     width: 10%;
     height: 10%;
+    margin: 0;
+    padding: 0;
 }
 .text1{
     text-align: right;
