@@ -4,7 +4,7 @@ section{
     margin: 0px;
 }
 
-body, section, p, h3 aside {
+body, section, p, img, aside {
     margin: 0;
     padding: 0;
 }
