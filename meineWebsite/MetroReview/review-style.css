@@ -4,6 +4,12 @@ section{
     margin: 0px;
 }
 
+.bpag{
+    text-align: left;   /* bullet points about the game */
+}
+
+
+
 body, section, p, img, h3, aside {
     margin: 0;
     padding: 0;
@@ -13,12 +19,20 @@ body{
     margin: 0;
 }
 
+
+
+
+
 .header{
     position: relative;
     width: 100%;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
+}
+
+header p{
+    width:100%
 }
 
 .overlay {
@@ -46,6 +60,10 @@ body{
     padding: 0px;
 }
 
+
+
+
+
 aside{
     background-color:rgba(128, 121, 121, 0.7);   /* for images*/
     margin: 0px;
@@ -56,6 +74,3 @@ img{
     height: 10%;
 }
 
-.bpag{
-    text-align: left;   /* bullet points about the game */
-}
