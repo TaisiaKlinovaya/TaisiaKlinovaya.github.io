@@ -1,3 +1,4 @@
+/*  Section, container, headline  und text bestimmen den mitleren Teil der Website*/
 section{
         width: 50%;
         height: 500px;
@@ -8,7 +9,6 @@ section{
         border: solid white 2px;
 
 }
-
 .container{
     display: flex;
     text-align: center;
@@ -17,22 +17,21 @@ section{
     top: 50%;
 
 }
-
 .headline, .text{
     margin: 30px;
     color: ghostwhite;
 }
-
 .headline{
     text-decoration: underline;
 }
 
 
+/* alle weiße Ränder weg und Hintergrund gesamter Website*/
+
 body, section, p, img, h3, aside {
     margin: 0;
     padding: 0;
 }
-
 body{
     margin: 0;
     background-image: url("stadt.jpg") ;
@@ -40,7 +39,7 @@ body{
 }
 
 
-
+/* header, overlay, text-vontainer und wallpp für den oberen Bereich der Site*/
 
 .header{
     position: relative;
@@ -51,7 +50,6 @@ body{
     border-bottom: solid white 5px;
     color: ghostwhite;
 }
-
 .overlay {
     position: absolute;
     top: 0;
@@ -60,7 +58,6 @@ body{
     height: 100%;
     background: rgba(45, 42, 42, 0.7);
 }
-
 .text-container {
     position: absolute;
     top: 50%;
@@ -72,24 +69,23 @@ body{
     text-decoration: underline;
     text-shadow: 0 0 3px rgba(128, 121, 121, 0.7);
 }
-
 .wallpp {
     width: 100%;
     height: 250px;
     display: block;
 }
-
 .text1{
     margin-top: 100px;
 }
 
+
+/* der untere Bereich der Website mit Bildern */
 footer{
     background-color: black;
     height:150px;
     display: flex;
     justify-content: center;
 }
-
 footer img {
     height: 100%;
     width: 10%;
