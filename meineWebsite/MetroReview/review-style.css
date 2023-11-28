@@ -1,6 +1,6 @@
 
 /* Navigation Tab*/
-ul{
+nav ul{
     overflow: hidden;
     list-style-type: none;
     background-color: rgb(34, 34, 34);
@@ -12,7 +12,7 @@ ul{
     z-index: 1;
 }
 
-li {
+nav li {
     display: inline;
     float: left;
     border-right: solid ghostwhite 1px;
