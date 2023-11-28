@@ -8,12 +8,12 @@ section{
         padding: 20px;
         display: inline-block;
         border: solid white 2px;
-        height: 200px;
+
 }
 
 section img{
-    height: 190px ;
-    width:110px;
+    height: auto ;
+    width:auto;
     display: inline-block;
 }
 
@@ -37,6 +37,7 @@ body, section, p, img, h3, aside {
 
 body{
     margin: 0;
+    background-color: black;
 }
 
 
@@ -79,16 +80,7 @@ body{
     display: block;
 }
 
-
-
-
-aside{
-    background-color:rgba(128, 121, 121, 0.7);   /* for images*/
-    margin: 0px;
-}
-img{
-    display:inline-block;   /*all images */
-    width: 10%;
-    height: 10%;
+.text1{
+    margin-top: 100px;
 }
 
