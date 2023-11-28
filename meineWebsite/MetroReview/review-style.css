@@ -81,14 +81,14 @@ body{
 
 /* der untere Bereich der Website mit Bildern */
 footer{
-    background-color: black;
+    background-color: rgb(49, 45, 45);
     height:150px;
     display: flex;
     justify-content: center;
 }
 footer img {
-    height: 100%;
-    width: 10%;
+    aspect-ratio: 5/4;
+    object-fit:contain;
     display: inline-block;
     margin: 0 10px;
 }
