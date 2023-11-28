@@ -15,27 +15,37 @@ section{
     height: auto;
     position: relative;
     top: 50%;
+    background-image: url("stadt.jpg") ;
+    background-size: cover;
 
 }
-.headline, .text{
+.text{
     margin: 30px;
-    color: ghostwhite;
+    color: black;
+    text-shadow: 1px 1px white;
 }
+
+.headline4{
+    color:ghostwhite;
+    font-family:'Courier New', Courier, monospace;
+}
+
 .headline{
+    margin:30px 0px 0px 30px;
     text-decoration: underline;
+    color:black;
 }
+
 
 
 /* alle weiße Ränder weg und Hintergrund gesamter Website*/
 
-body, section, p, img, h3, aside {
+body, section, p, img, h3, aside, header {
     margin: 0;
     padding: 0;
 }
 body{
     margin: 0;
-    background-image: url("stadt.jpg") ;
-    background-size: cover;
 }
 
 
@@ -91,4 +101,64 @@ footer img {
     object-fit:contain;
     display: inline-block;
     margin: 0 10px;
+}
+
+
+/* hier werden die Charakter Bilder und der jeweilige pop out Text formatiert*/
+
+.headline2{
+    text-align: center;
+    color: ghostwhite;
+    text-decoration:underline;
+    margin-top: 20px;
+}
+
+aside{
+    background-color: rgb(70, 70, 70);
+}
+
+.bild-container {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+aside img{
+    margin: 30px 10px 30px 30px;
+    width: 500px;
+    max-height: 500px;
+    justify-content: center;
+    aspect-ratio:2/2;
+    border: solid black 3px;
+}
+
+img:hover{
+    transform: scale(0.75);
+    transition-duration: 1s;        /* bild verkleinern */
+}
+
+
+.text-container1 {
+    display: none;
+    position:relative;
+    top: 0;
+    left: 0;
+    margin-right: 50px;
+    background-color: #9d9d9d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: ghostwhite;
+    border: solid black 3px;
+}
+
+.text-container1 p{
+    margin-bottom: 20px;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-checkbox:checked + .bild-container .text-container1 {
+    display:block;
 }
