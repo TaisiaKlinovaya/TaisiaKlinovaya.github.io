@@ -1,3 +1,28 @@
+/* Navigation Tab*/
+nav ul{
+    overflow: hidden;
+    list-style-type: none;
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav li {
+    display: inline;
+    float: left;
+    border-right: solid ghostwhite 1px;
+  }
+
+nav a {
+    color: ghostwhite;
+    display: block;
+    padding: 20px 15px;
+}
+
 /*  Section, container, headline  und text bestimmen den mitleren Teil der Website*/
 section{
         width: 50%;
