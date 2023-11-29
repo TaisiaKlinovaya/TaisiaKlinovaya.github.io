@@ -165,9 +165,15 @@ img:hover{
 }
 
 .toggle-checkbox {
-    display: none;
+    display:none;
 }
 
 .toggle-checkbox:checked + .bild-container .text-container1 {
     display:block;
+}
+
+
+footer{
+    background-color: rgb(28, 28, 28);
+    color: ghostwhite;
 }
