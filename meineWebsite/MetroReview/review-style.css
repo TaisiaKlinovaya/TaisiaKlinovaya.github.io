@@ -54,12 +54,14 @@ section{
 .headline4{
     color:ghostwhite;
     font-family:'Courier New', Courier, monospace;
+    text-shadow:2px 1px 2px rgb(39, 36, 36);
 }
 
 .headline{
     margin:30px 0px 0px 30px;
     text-decoration: underline;
     color:black;
+    text-shadow: 1px 1px green;
 }
 
 
@@ -157,7 +159,7 @@ img:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     color: ghostwhite;
-    border: solid black 3px;
+    border: outset black 4px;
 }
 
 .text-container1 p{
@@ -176,5 +178,4 @@ img:hover{
 footer{
     background-color: rgb(28, 28, 28);
     color: ghostwhite;
-    margin: 10px;
 }
