@@ -7,7 +7,7 @@
             body{
                 margin: 0%;
                 padding:0%;
-                background-color: rgb(52, 115, 123);
+                background-color: rgb(45, 100, 107);
             }
             .backgpart{
                 z-index: 1;
@@ -19,20 +19,42 @@
                 align-items: center;
                 z-index: 2;
                 position: fixed;
-                top: 30%;
-                right: 40%;
-                background-color: rgba(rgb(195, 195, 195), 0,4);
-            }
-            .links {
-                display: flex;
-                z-index: 2;
-                color: black;
+                top: 25%;
+                right: 20%;
+                background-color: rgba(197, 231, 234, 0.7);
+                padding-top: 5%;
+                padding-bottom: 5%;
+                padding-left: 2%;
+                padding-right: 2%;
+                border: outset black 4px;
             }
             .headline1{
                 display: flex;
-                z-index: 2;
-                color: black;
+                flex-direction: column;
+                z-index: 3;
+                color: rgb(0, 11, 78);
+                font-style: italic;
+                padding-right: 250px;
             }
+            .links {
+                z-index: 3;
+                top:60%;
+                display: flex;
+                flex-direction: column;
+                color:rgb(0, 11, 78);
+                font-size: larger;
+                padding-left:200px;
+            }
+            a{
+                color:rgb(0, 11, 78);
+                margin: 12px;
+            }
+
+            .links a:hover,
+            .links a:active {
+                color:rgb(41, 110, 240);
+            }
+
 
         </style>
     </head>
@@ -44,15 +66,16 @@
         
     <div class="middlebox">
        <div class="headline1">
-        <h1>Willkommen</h1>        <!-- Headline-->
+        <h1>Welcome</h1>        <!-- Headline-->
+        <h1>Willkommen</h1>
+        <h1>Добро пожаловать</h1>
        </div>
-
         <div class="links">
-            <a style="color: aliceblue;" href="meineWebsite/Aufgaben.html"> Aufgaben</a>
-            <a style="color: aliceblue;" href="meineWebsite/tools.html"> tools link </a>
-            <a style="color: aliceblue;" href="https://www.office.com/?auth=2"> Office </a>       <!-- useful sites-->
-            <a style="color: aliceblue;" href="https://intranet.bib.de/tiki-index.php?page=welcome"> Intranet BIB </a>
-            <a style="color: aliceblue;" href="labyrinth/start.html"> LABYRINTH GAME </a>
+            <a  href="meineWebsite/Aufgaben.html"> Aufgaben </a>
+            <a  href="meineWebsite/tools.html"> tools </a>
+            <a  href="https://www.office.com/?auth=2"> Office </a>       <!-- useful sites-->
+            <a  href="https://intranet.bib.de/tiki-index.php?page=welcome"> Intranet BIB </a>
+            <a  href="labyrinth/start.html"> LABYRINTH GAME </a>
         </div>
     </div>
 
