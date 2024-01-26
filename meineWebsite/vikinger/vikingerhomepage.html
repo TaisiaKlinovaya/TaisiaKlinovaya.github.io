@@ -11,6 +11,8 @@
             z-index: 0;
             margin: 0%;
         }
+
+
         nav{
             background-color: rgb(49, 49, 49);
             z-index: 1;
@@ -20,14 +22,31 @@
         }
         nav li{
             display: inline-flex;
-            justify-content: center;
         }
         nav a{
             color: aliceblue;
-            margin-left: 20px;
+            margin-right: 20px;
         }
-        a:hoover{
-            color:black;
+
+
+        .headlineV{
+            float: left;
+            font-size: 100px;
+            width: 42.5%;
+            padding: 40px;
+            padding-left: 70px;
+        }
+        .vorwort{
+            font-size: 20px;
+            float: right;
+            width: 35%;
+            margin-top: 70px;
+            margin-right: 150px;
+        }
+        .box4themen{
+            z-index: 1;
+            background-color: blueviolet;
+            
         }
     </style>
 </head>
@@ -35,10 +54,28 @@
 <body>
     <nav>
     <ul>
-        <li><a href="https://taisiaklinovaya.github.io/index.html">Home Page</a></li>
-        <li><a href="https://taisiaklinovaya.github.io/meineWebsite/Aufgaben.html">Weitere Aufgaben</a></li>
+        <li><a href="https://taisiaklinovaya.github.io/index.html" class="link">Home Page</a></li>
+        <li><a href="https://taisiaklinovaya.github.io/meineWebsite/Aufgaben.html" class="link">Weitere Aufgaben</a></li>
     </ul>
     </nav>
+
+    <div class="headlineV">Die Welt Der Vikinger</div>
+
+    <div class="vorwort">
+        Willkommen auf unserer Website, die sich den faszinierenden Welten der Wikinger widmet! 
+        Tauche ein in eine Zeit, die von Abenteuern, Entdeckungen und furchtlosen Kriegerseelen 
+        geprägt ist. Unsere Seite lädt dich dazu ein, das Erbe der Wikinger zu erkunden, von ihren 
+        mythischen Geschichten und Helden bis hin zu ihren Alltag. 
+        Entdecke die epochemachenden Aspekte des Wikingerzeitalters und erfahre mehr über ihre legendären Expeditionen. Bereit, die Reise in die Welt 
+        der Wikinger anzutreten? Tauche ein und erlebe die Faszination dieser fesselnden historischen Ära.
+    </div>
+
+    <section class="box4themen">
+        <div class="textbox">Heidische Religion</div>
+        <div class="textbox">Alltag der Vikinger</div>
+        <div class="textbox">Helden und bedeutende Personen</div>
+        <div class="textbox">Quellen für die Texte</div>
+    </section>
 
     
 </body>
