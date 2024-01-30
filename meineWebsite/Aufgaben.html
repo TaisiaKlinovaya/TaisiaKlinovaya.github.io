@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 
-<body style="background-color: ghostwhite;">
-  <h1> hier befinden sich alle Aufgaben die ich in HTML aufbekomen habe</h1>
+<html>
+<head>
+
+  <style>
+
+    body{
+      background-color:rgb(65, 78, 179);
+      color: aliceblue;
+      text-align: center;
+      margin: 0%;
+    }
+    a{
+      color: aliceblue;
+    }
+    .links{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+    .links a:hover,
+    .links a:active {
+        color:rgb(243, 221, 60);
+    }
+    .homePage a:hover,
+    .homePage a:active {
+        color:rgb(161, 133, 255);
+    }
+
+    .homePage{
+      background-color:rgb(33, 57, 105);
+      padding: 20px;
+      border: 3px solid black;
+    }
+    img{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 420px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <h1> Alle HTML Aufgaben aus dem 1 Semester</h1>
   <hr>
-  <a href="flaggen.html"> Flaggen Aufgabe von 10.11.2023 </a>
+  
+  <div class="links">
+  <a href="flaggen.html"> Flaggen Aufgabe</a>
   <br>
-  <a href="DesignAufgaben.html"> Website designen 17.11.2023</a>
+  <a href="DesignAufgaben.html"> Website designen</a>
   <br>
-  <a href="cssDesign/blank.html"> Website Formatieren mit css</a>
+  <a href="cssDesign/blank.html"> Website formatieren mit css</a>
   <br>
   <a href="MetroReview/review.html">Metro; Last Light review</a>
   <br>
   <a href="cssDesign/fakeGoogle.html">Fake Google Seite</a>
+  <br>
+  <a href="cssDesign/FakeWikipedia.html">Fake Wikipedia</a>
+  <br>
+  <a href="UsabilityExample.html">Usability Example</a>
+  </div>
+
+  <div class="homePage">
+  <a href="../index.html">Home Page</a>
+  </div>
+
+  <div class="flower">
+    <img src="blue.jpg" alt="picture background design">
+  </div>
+
 </body>
+
+</html>
