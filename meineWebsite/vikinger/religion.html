@@ -12,6 +12,9 @@
             margin: 0%;
         }
 
+
+        /* Naviagtion Bar Formatierung*/
+
         nav{
             background-color: rgb(49, 49, 49);
             z-index: 4;
@@ -29,11 +32,30 @@
         }
         a:hover {
                 color:rgb(194, 142, 230);
-            }
+        }
+
+
+        /*Bilder Container Formatierung*/
+
+        .box{
+            background-color: rgb(60, 60, 60);
+            display: flexbox;
+            margin:30px;
+            height: 500px;
+            padding: 20px;
+        }
+        .bild{
+            aspect-ratio: auto;
+            max-height: 100%;
+            justify-content: end;
+            float: right;
+        }
+
     </style>
 </head>
 
 <body>
+                    <!-- Navigation Bar -->
     <nav>
         <ul>
             <li><a href="https://taisiaklinovaya.github.io/index.html" class="link">Home Page</a></li>
@@ -42,14 +64,17 @@
         </ul>
         </nav>
 
+                    <!-- Bilder Section -->
         <section>
             <div class="box">
-                <img src="" alt="" class="bild">
+                <img src="Odin.png" alt="Odin" class="bild">
             </div>
             <div class="box">
-                <img src="" alt="" class="bild">
+                <img src="Freya.png" alt="Freya" class="bild">
             </div>
-            <div class="box"><img src="" alt="" class="bild"></div>
+            <div class="box">
+                <img src="Thor.png" alt="Thor" class="bild">
+            </div>
         </section>
 </body>
 </html>
