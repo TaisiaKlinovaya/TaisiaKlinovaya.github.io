@@ -6,6 +6,11 @@
     <title>Religion der Wikinger</title>
 
     <style>
+        @font-face {
+            font-family: gothicFont;
+            src: url(Macondo.ttf);
+        }
+
         body{
             background-color: rgb(107, 107, 107);
             z-index: 0;
@@ -33,25 +38,67 @@
         a:hover {
                 color:rgb(194, 142, 230);
         }
+        .mainHeadline{
+            color:aliceblue;
+            display: flex;
+            float: right;
+            font-size: 30px;
+            margin-right: 10%;
+            margin-top: -45px;
+            padding: 0px;
+        }
 
 
         /*Bilder Container Formatierung*/
 
         .box{
-            background: radial-gradient(ellipse at left, #472f4e, transparent),
-                        radial-gradient(ellipse at right, #4d498d, transparent);
+            background: linear-gradient(0.25turn, #472f4e, #6f4b7a, #8e88dd);
             display: flexbox;
             flex-direction: column;
             height: 500px;
-            margin:30px;
+            margin:50px;
             padding: 20px;
             border: rgb(30, 22, 44) solid 2px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
         }
         .bild{
             aspect-ratio: auto;
             max-height: 100%;
             justify-content: end;
             float: right;
+            margin-right: 3rem;
+            margin-top: -70px;
+        }
+        .headline{
+            margin:0;
+            margin-left: 255px;
+            padding: 0px;
+            border: 0px;
+            font-size: 45px;
+            font-family: gothicFont;
+            color:#ffffff;
+        }
+        .text{
+            max-width: 500px;
+            display: inline-flex;
+            margin-left: 70px;
+            margin-top: 30px;
+            line-height: 30px;
+            font-size: 1.3rem;
+            font-family: gothicFont;
+            color:#c2c0e0;
+        }
+        .box:hover{
+            border: rgb(176, 165, 196) solid 4px;;
+        }
+
+        /* Footer formatieren*/
+        footer{
+            background-color: rgb(34, 34, 34);
+            margin: 0px;
+            padding: 5px;
+            color:gainsboro;
+            border-top: 2px solid black;
         }
 
     </style>
@@ -65,19 +112,43 @@
             <li><a href="https://taisiaklinovaya.github.io/meineWebsite/Aufgaben.html" class="link">Weitere Aufgaben</a></li>
             <li><a href="vikingerhomepage.html" class="links">Vikinger Home Page</a></li>
         </ul>
-        </nav>
+
+        <p class="mainHeadline">
+            Nordische Mythologie
+        </p>
+    </nav>
 
                     <!-- Bilder Section -->
         <section>
+        <div class="inhalt">
             <div class="box">
-                <img src="Odin.png" alt="Odin" class="bild">
+                <h1 class="headline"> odin </h1>
+                <p class="text">
+                    Odin, der mächtige Gott der nordischen Mythologie, ist bekannt als der Allvater, der Weisheit und Krieg gleichermaßen verkörpert. Er herrscht über Walhall, den Saal der gefallenen Krieger, und wird oft als ein weiser Wanderer dargestellt, der stets nach Wissen strebt. Mit seinem treuen Raben Huginn und Muninn und seinem Wölfen Geri und Freki an seiner Seite, verkörpert er die Dualität von Weisheit und Stärke. Odin opferte sogar sein Auge, um die Weisheit der Welten zu erlangen. Sein Charakter ist komplex, voller Rätsel und Tiefen, und sein Einfluss reicht weit über die Grenzen der nordischen Mythologie hinaus.
+                </p>
+                <img src="Odin.png" alt="Odin" class="bild" id="odin">
             </div>
+
             <div class="box">
-                <img src="Freya.png" alt="Freya" class="bild">
+                <h1 class="headline"> Freya </h1>
+                <p class="text">
+                    Freya ist eine der faszinierendsten Göttinnen in der nordischen Mythologie. Als Göttin der Liebe, Schönheit und Fruchtbarkeit verkörpert sie eine kraftvolle weibliche Energie. Sie besitzt auch die Fähigkeit, Kriegern in Schlachten beizustehen und ihnen Mut zu verleihen. Freya reist oft mit ihrer Kutsche, die von Katzen gezogen wird, und ist bekannt für ihre Sinnlichkeit und Unabhängigkeit. Sie ist die Schwester des Gottes Freyr und die Tochter des Meeresgottes Njörðr. In vielen Geschichten der nordischen Mythologie spielt Freya eine bedeutende Rolle und wird oft als eine der mächtigsten und verehrtesten Göttinnen dargestellt.
+                </p>
+                <img src="Freya.png" alt="Freya" class="bild" id="freya">
             </div>
+            
             <div class="box">
-                <img src="Thor.png" alt="Thor" class="bild">
+                <h1 class="headline"> Thor </h1>
+                <p class="text">
+                    Thor ist eine zentrale Figur in der nordischen Mythologie und wird als der mächtige Gott des Donners verehrt. Er ist bekannt für seine immense Stärke, seinen Mut und seinen unwiderstehlichen Charakter. Thor ist der Sohn von Odin, dem obersten Gott, und wird oft mit seinem mächtigen Hammer Mjölnir dargestellt, der die Kraft besitzt, Blitze zu schleudern und Feinde zu vernichten. Neben seiner Rolle als Kriegsgott wird Thor auch als Beschützer der Menschen und Verteidiger der Götter angesehen. Seine Abenteuer und Heldentaten sind in zahlreichen nordischen Mythen und Legenden verewigt, und er wird von vielen als Symbol für Stärke, Tapferkeit und Gerechtigkeit verehrt.
+                </p>
+                <img src="Thor.png" alt="Thor" class="bild" id="thor">
             </div>
+        </div>
         </section>
+
+        <footer>
+            <p> Projekt von Taisia Klinovaya bbm3h23akl, Januar 2024</p>
+        </footer>
 </body>
 </html>
