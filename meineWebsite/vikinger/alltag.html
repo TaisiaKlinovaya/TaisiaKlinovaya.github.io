@@ -12,8 +12,7 @@
         }
 
         body{
-            background-color: rgb(107, 107, 107);
-            z-index: 0;
+            background: linear-gradient(0.50turn, rgb(51, 51, 51), rgb(85, 85, 85), rgb(52, 52, 52));
             margin: 0%;
         }
 
@@ -61,15 +60,34 @@
         .bild{
             width: 30%;
             margin: 2vw;
+            object-fit: contain;
+            filter:drop-shadow(0px 0px 10px rgb(48, 37, 135));
         }
         .text{
-            margin-top: 7vw;
+            margin: 7vw 5vw 2vw 5vw;
             font-size: 1.5vw;
-            background-color: aliceblue;
+            font-family: gothicFont;
+            color:rgb(242, 215, 249);
         }
         .headline{
-            background-color: aliceblue;
+            display: flex;
+            padding:0px;
+            margin: 0px 0px -5vw 4vw;
             text-align: center;
+            align-items: center;
+            font-family: gothicFont;
+            font-size: 1.5vw;
+            color:rgb(242, 215, 249);
+            
+        }
+
+
+        footer{
+            background-color: rgb(34, 34, 34);
+            margin: 0px;
+            padding: 5px;
+            color:gainsboro;
+            border-top: 2px solid black;
         }
 
     </style>
@@ -87,7 +105,9 @@
         </nav>
 
         <div class="theme">
-            <h1 class="headline"> Zuhause</h1>
+            <div class="headline">
+            <h1> Häuser</h1>
+            </div>
             <p class="text">
                 Die Häuser der Wikinger waren nicht nur einfache Unterkünfte, sondern Zentren des Lebens und der Kultur. Ähnlich wie ihre Schiffe spiegelten sie ihre Meisterschaft der Ozeane wider. Die steilen Dächer und robuste Konstruktion erinnerten an ihre Langschiffe. Diese Häuser waren Versammlungsorte für Gemeinschaft und Feiern, ähnlich den Schiffen, die als Treffpunkt für Reisen dienten. So symbolisierte das Zuhause der Wikinger nicht nur Schutz, sondern auch ihre maritime Identität als mutige Seefahrer und Entdecker. 
             </p>
@@ -96,14 +116,18 @@
 
         <div class="theme">
             <img src="Family.jpg" alt="Familie" class="bild">
-            <h1 class="Headline">Familie</h1>
+            <div class="headline">
+            <h1>Familie</h1>
+            </div>
             <p class="text">
                 Die Familie war für die Wikinger von zentraler Bedeutung. Sie lebten in engen Familienverbänden, die Sicherheit und Unterstützung boten. Diese Strukturen umfassten oft mehrere Generationen und bildeten das Herzstück der Gemeinschaft. In großen Langhäusern teilten sie Ressourcen und Verantwortung. Die Familie übernahm auch Aufgaben wie Landwirtschaft, Handwerk und Erziehung, während ältere Mitglieder als Quelle von Weisheit und Erfahrung geschätzt wurden. Sogar nach dem Tod wurde die Familie weiterhin miteinander für Ewigkeiten in Walhalla verbunden.
             </p>
         </div>
 
         <div class="theme">
-            <h1 class="headline">Berühmte Krieger</h1>
+            <div class="headline">
+            <h1>Berühmte Krieger</h1>
+            </div>
             <p class="text"> 
                 Die Wikinger waren für ihre kriegerischen Aktivitäten und Eroberungen in verschiedenen Teilen Europas bekannt. Ein herausragendes Beispiel ist ihre erfolgreiche Besiedlung von Teilen Englands während des 9. und 10. Jahrhunderts. Die Wikinger führten auch Überfälle auf andere Regionen durch, wie beispielsweise Irland, Schottland, Frankreich und sogar weit entfernte Gebiete wie Sizilien und Nordamerika. Diese militärischen Unternehmungen prägten die Geschichte Europas und hinterließen ein Vermächtnis von mutigen Entdeckern und Eroberern. Ein Grund für die Mut der Vikinger war die Religion, wenn man als tapferer Krieger starb, ging man nach Wallhala zu Odin, was als eine große Ehre für alle Menschen gilt.
             </p>
@@ -111,6 +135,11 @@
 
         </div>
 
+        <footer>
+            <p> Projekt von Taisia Klinovaya bbm3h23akl, Januar 2024</p>
+        </footer>
+
     </div>
+
 </body>
 </html>
