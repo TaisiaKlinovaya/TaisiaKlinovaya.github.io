@@ -1,1 +1,42 @@
+    /* Navigation Bar Einstellungen*/
 
+nav{
+    background-color: rgb(49, 49, 49);
+    z-index: 4;
+    margin: 0px;
+    padding: 3px;
+    border-bottom: 2px solid black;
+    box-shadow: 0 0 20px rgb(52, 52, 52);
+}
+nav li{
+    display: inline-flex;
+}
+a:hover {
+        color:rgb(194, 142, 230);
+}
+nav a{
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+/* nur für Unterseiten*/
+
+.mainHeadline{
+    color:aliceblue;
+    display: flex;
+    float: right;
+    font-size: 30px;
+    margin-right: 10%;
+    margin-top: -45px;
+    padding: 0px;
+}
+
+    /* Footer Einstellungen*/
+
+footer{
+    background-color: rgb(34, 34, 34);
+    margin: 0px;
+    padding: 5px;
+    color:gainsboro;
+    border-top: 2px solid black;
+}
