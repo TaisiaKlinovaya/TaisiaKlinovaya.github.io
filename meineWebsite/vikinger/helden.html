@@ -7,9 +7,66 @@
     <title>Helden und bedeutende Personen</title>
     <style>
         body{
+            background-color: rgb(69, 69, 69);
+            margin: 0px;
+        }
+        .container{
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        .image{
+            height: 100%;
+            padding: 300px;
+	        background-position: center;
+	        background-repeat: no-repeat;
+	        background-attachment: fixed;
+        }
+        #First{
             background-image: url("Bilder/blackBeach.png");
-            background-repeat:no-repeat;
             background-size: cover;
+        }
+        #Second{
+            background-image: url("Bilder/HakonTheGood.jpg");
+            background-size: 50% 80%;
+        }
+        #Third{
+            background-image: url("Bilder/stOlav.jpg");
+        }
+        #Fourth{
+            background-image: url("Bilder/MagnusTheGood.jpg");
+        }
+        #Fifth{
+            background-image: url("Bilder/HaroldHardrada.jpg");
+        }
+
+        .text {
+	        height: 20%;
+	        padding-bottom: 16px;
+            background-color: rgba(47, 0, 255);
+            color: rgb(0, 0, 0);
+            width: 100%;
+            text-align: center;
+	    }
+        .headline{
+            height:20%;
+            opacity: 1;
+            text-align: center;
+        }
+        .ImageText{
+            font-size: 20px;
+            margin-bottom: 20px;
+            padding-top: -200px;
+        }
+        h2{
+            height: 20%;
+        }
+        header{
+            width: 100%;
+        }
+        footer{
+            height: 15%;
+            width: 100%;
         }
     </style>
 </head>
@@ -32,31 +89,31 @@
         <div class="image" id="Second"></div>
         <div class="text">
             <h2>Håkon der Gute (918–961)</h2>
-            <p>König von Norwegen von 930 bis 960. Er nutzte seine pädagogischen Erfahrungen aus England, um mehr vom Land als sein Bruder Eirik Bloodaxe zu vereinigen.   
+            <p class="ImageText">König von Norwegen von 930 bis 960. Er nutzte seine pädagogischen Erfahrungen aus England, um mehr vom Land als sein Bruder Eirik Bloodaxe zu vereinigen.   
             </p>
         </div>
 
         <div class="image" id="Third"></div>
         <div class="text">
             <h2>St. Olav (993–1030)</h2>
-            <p>König von Norwegen von 1015 bis 1028. Ein Kriegsführer in England und Frankreich, bevor er nach Norwegen zurückkehrte. Olav sah es als seinen Auftrag, Norwegen zu einem christlichen Königreich zu vereinen. Heiliggesprochen nach seinem Tod in der Schlacht von Stiklestad am 29. Juli 1030.</p>
+            <p class="ImageText">König von Norwegen von 1015 bis 1028. Ein Kriegsführer in England und Frankreich, bevor er nach Norwegen zurückkehrte. Olav sah es als seinen Auftrag, Norwegen zu einem christlichen Königreich zu vereinen. Heiliggesprochen nach seinem Tod in der Schlacht von Stiklestad am 29. Juli 1030.</p>
         </div>
 
         <div class="image" id="Fourth"></div>
         <div class="text">
             <h2>Magnus der Gute (1024–1047)</h2>
-            <p>König von Norwegen von 1035 bis 1047. Seine Regierung profitierte von der abnehmenden Brutalität und dem Wunsch der Wikinger, die Monarchie wiederherzustellen.</p>
+            <p class="ImageText">König von Norwegen von 1035 bis 1047. Seine Regierung profitierte von der abnehmenden Brutalität und dem Wunsch der Wikinger, die Monarchie wiederherzustellen.</p>
         </div>
         
-        <div class="image" id="fifth"></div>
+        <div class="image" id="Fifth"></div>
         <div class="text">
             <h2>Harald Hardrada (1015–1066)</h2>
-            <p>König von Norwegen von 1045 bis 1066. Im ersten Jahr regierte er zusammen mit Magnus dem Guten. Er starb in der Schlacht von Stamford Bridge beim Versuch, England anzugreifen. Sein Tod gilt als das Ende der Wikingerzeit.</p>
+            <p class="ImageText">König von Norwegen von 1045 bis 1066. Im ersten Jahr regierte er zusammen mit Magnus dem Guten. Er starb in der Schlacht von Stamford Bridge beim Versuch, England anzugreifen. Sein Tod gilt als das Ende der Wikingerzeit.</p>
         </div>
+    </div>
 
     <footer>
-        <p> Projekt von Taisia Klinovaya bbm3h23akl, Januar-Februar 2024</p>
-        <p>Idee und Text von visitnorway.de</p>
+        <p class="footerText"> Projekt von Taisia Klinovaya bbm3h23akl, Januar-Februar 2024, Idee und Text von visitnorway.de</p>
     </footer>
     
 </body>
