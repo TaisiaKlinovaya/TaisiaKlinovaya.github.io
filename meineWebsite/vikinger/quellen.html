@@ -7,11 +7,48 @@
     <title>Quellen</title>
 
     <style>
+        @font-face {
+            font-family: gothicFont;
+            src: url(Macondo.ttf);
+        }
+        
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            min-width: 100%;
+        }
         header{
-            max-width: 15vw;
+            max-width: auto;;
             background-color: aquamarine;
             text-align: center;
-            
+            padding: 3.5vw;
+        }
+
+        section{
+            position: absolute;
+            left: 25vw;
+            max-width: 50%;
+            max-height: 50%;
+            overflow-y: auto;
+            background-color: blue;
+
+        }
+        #Snorri{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 2vw;
+        }
+        #Edda{
+            display: flex;
+            flex-direction: row;
+        }
+
+        img{
+            max-width: 10vw;
         }
     </style>
 </head>
@@ -31,21 +68,34 @@
     </header>
 
     <section>
-        <h2 class="headline2"> Snorri Sturluson</h1>
+        <div id="Snorri">
         <img src="Bilder/Snorri.jpg" alt="Snorri Sturluson">
+        <h2 class="headline2"> Snorri Sturluson</h1>
         <p class="main-text">
             Snorri Sturluson (1178–1241) is considered the greatest historian of medieval Europe. He was also a poet and a lawyer. Snorri wrote quite a few books and his works are still well known, read and published throughout the world. The most famous of them are Heimskringla and Snorra Edda. He wrote about the Viking Age and thanks to Snorri's work the Viking culture emerges as fairly intellectual and artistic
         </p>
-        <hr>
-        <h2>Petische Edda und Prose Edda</h2>
+        </div>
+
+        <div id="große Edda">
         <img src="Bilder/Edda.jpg" alt="Edda Buch">
+        <h2 class="headline2">Poetische Edda</h2>
         <p class="main-text">
-            Die Edda ist eine Sammlung altnordischer Texte aus dem 13. Jahrhundert, bestehend aus der Älteren Edda (Poetische Edda) und der Jüngeren Edda (Prosa-Edda). Die Ältere Edda enthält Gedichte, die mythologische Geschichten, Götterlieder und Heldenlieder umfassen, während die Jüngere Edda von Snorri Sturluson verfasst wurde und als Handbuch für nordische Dichtkunst und Mythologie dient. Diese Texte sind eine bedeutende Quelle für das Verständnis der nordischen Kultur und haben einen Einfluss auf Literatur und Popkultur.
+            Die Poetische Edda ist eine bedeutende Sammlung altisländischer Gedichte, die aus dem 13. Jahrhundert stammt und einen zentralen Teil der nordischen Literatur und Mythologie darstellt. Diese Gedichte, die oft in Form von mündlich überlieferten Geschichten vorliegen, bieten einen faszinierenden Einblick in die Glaubenswelt, die Kultur und die Lebensweise der Menschen während der Wikingerzeit.
         </p>
+        </div>
+
+        <div id="kleine Edda">
+            <img src="" alt="Edda Buch">
+            <h2 class="headline2">Prose Edda</h2>
+            <p class="main-text">  
+                Die Prosa-Edda, auch bekannt als Snorra-Edda, ist ein bedeutendes Werk der altisländischen Literatur, das im 13. Jahrhundert von Snorri Sturluson verfasst wurde. Anders als die Poetische Edda, die eine Sammlung von Gedichten ist, ist die Prosa-Edda in Prosa verfasst und dient als Handbuch für skandinavische Dichtkunst und Mythologie.
+            </p>
+            </div>
     </section>
 
     <footer>
         <p class="footerText"> Projekt von Taisia Klinovaya bbm3h23akl, Januar-Februar 2024, Idee und Text von visitnorway.de</p>
     </footer>
 </body>
+
 </html>
