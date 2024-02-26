@@ -15,6 +15,7 @@
         body{
             margin: 0;
             padding: 0;
+            background-color: rgb(51, 51, 51);
         }
         footer{
             position: fixed;
@@ -23,7 +24,7 @@
         }
         header{
             max-width: auto;;
-            background-color: aquamarine;
+            background-color: rgb(146, 146, 198);
             text-align: center;
             padding: 3.5vw;
         }
@@ -32,19 +33,30 @@
             position: absolute;
             left: 25vw;
             max-width: 50%;
-            max-height: 50%;
+            max-height: 60%;
             overflow-y: auto;
-            background-color: blue;
+            background-color: rgb(97, 97, 97);
+            border: 2px solid black;
 
+            font-size: larger;
+            
         }
         #Snorri{
             display: flex;
             flex-direction: row;
             margin-bottom: 2vw;
+            margin-top: 2vw;
+
         }
-        #Edda{
+        #großeEdda {
             display: flex;
             flex-direction: row;
+            margin-bottom: 2vw;
+        }
+        #kleineEdda{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 2vw;
         }
 
         img{
@@ -64,8 +76,9 @@
 
     <header>
         <h1 class="headline1">QUELLEN</h1>
-        <p id="header-text">Sie wollen mehr erfahren? hier finden sie </p>
+        <p id="header-text">Sie wollen mehr erfahren? hier finden sie mehr Information</p>
     </header>
+
 
     <section>
         <div id="Snorri">
@@ -76,22 +89,27 @@
         </p>
         </div>
 
-        <div id="große Edda">
-        <img src="Bilder/Edda.jpg" alt="Edda Buch">
+        <hr>
+
+        <div id="großeEdda">
+        <img src="Bilder/PoeticEdda.jpg" alt="Poetic Edda">
         <h2 class="headline2">Poetische Edda</h2>
         <p class="main-text">
             Die Poetische Edda ist eine bedeutende Sammlung altisländischer Gedichte, die aus dem 13. Jahrhundert stammt und einen zentralen Teil der nordischen Literatur und Mythologie darstellt. Diese Gedichte, die oft in Form von mündlich überlieferten Geschichten vorliegen, bieten einen faszinierenden Einblick in die Glaubenswelt, die Kultur und die Lebensweise der Menschen während der Wikingerzeit.
         </p>
         </div>
 
-        <div id="kleine Edda">
-            <img src="" alt="Edda Buch">
+        <hr>
+
+        <div id="kleineEdda">
+            <img src="Bilder/Edda.jpg" alt="Prose Edda">
             <h2 class="headline2">Prose Edda</h2>
             <p class="main-text">  
                 Die Prosa-Edda, auch bekannt als Snorra-Edda, ist ein bedeutendes Werk der altisländischen Literatur, das im 13. Jahrhundert von Snorri Sturluson verfasst wurde. Anders als die Poetische Edda, die eine Sammlung von Gedichten ist, ist die Prosa-Edda in Prosa verfasst und dient als Handbuch für skandinavische Dichtkunst und Mythologie.
             </p>
             </div>
     </section>
+
 
     <footer>
         <p class="footerText"> Projekt von Taisia Klinovaya bbm3h23akl, Januar-Februar 2024, Idee und Text von visitnorway.de</p>
