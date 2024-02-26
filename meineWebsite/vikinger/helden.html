@@ -14,14 +14,19 @@
         body{
             background-color: rgb(12,15,24);
             margin: 0px;
-            scroll-behavior: smooth;
+            overflow-x: hidden;
         }
         .container{
             height: 100%;
             margin: 0px;
+            margin-right: -10px;
             padding: 0px;
-            scroll-behavior: smooth;
         }
+        .container > div {
+            scroll-snap-align: start none;
+            scroll-margin-top: 30px;
+        }
+
         .image{
             height: 50%;
             padding: 300px;
