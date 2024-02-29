@@ -11,4 +11,5 @@ section::-webkit-scrollbar-track {
 section::-webkit-scrollbar-thumb {
   background: #3d5db5;
   border-radius: 10px;
+  border-left: black 1px solid;
 }
