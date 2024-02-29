@@ -10,6 +10,8 @@ nav{
 }
 nav li{
     display: inline-flex;
+    border-right: aliceblue solid 2px;
+    margin-left: 1vw;
 }
 a:hover {
         color:rgb(194, 142, 230);
