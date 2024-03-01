@@ -1,0 +1,11 @@
+
+@media (max-width: 1337px) {
+    .middlebox{
+        font-size: smaller;
+    }
+}
+@media(max-width: 1110px) {
+    .middlebox{
+        font-size: small;
+    }
+}
