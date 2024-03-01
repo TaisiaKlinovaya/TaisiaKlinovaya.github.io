@@ -18,6 +18,9 @@
             margin: 0%;
 
             height: 50vw;
+
+            display: flex;
+            flex-direction: column;
         }
         footer{
             position: fixed;
@@ -74,6 +77,8 @@
             position: absolute;
             bottom: 25%;
             max-height: 50%;
+            top: 55%;
+            margin-bottom: -50%;
         }
 
         .schatten{
@@ -106,7 +111,7 @@
             text-align: center;
 
             
-            margin-top: -8vw;
+            margin-top: -5vw;
             padding-bottom: 5%;
             height: 100%;
         }
@@ -136,7 +141,42 @@
             transition-duration: 0.5s;
             background-color: rgb(85, 85, 85);
         }
+        .burger-icon{
+            float: left;
+            display: none;
+            width: 30px;
+            height: 20px;
+        }
 
+        .line {
+            width: 20px;
+            height: 3px;
+            background-color: #000;
+            margin: 4px 0;
+        }
+
+        @media(max-width: 426px){
+            .words{
+                display: flex;
+                flex-direction: column !important;
+                align-items: center;
+                text-align: center;
+            }
+            .headlineV{
+                font-size: 10vw;
+                width: 80%;
+            }
+            .vorwort{
+                font-size: 3.5vw;
+                width: 80%;
+            }
+            nav{
+                display: none;
+            }
+            .burger-icon{
+                display: flex !important;
+            }
+        }
 
     </style>
 </head>
@@ -152,7 +192,13 @@
         <li><a href="https://taisiaklinovaya.github.io/meineWebsite/vikinger/quellen.html" class="link" id="unterseite">Quellen</a></li>
     </ul>
     </nav>
+    <div class="burger-icon">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
 
+    <div class="words">
     <div class="headlineV">Die Welt der Wikinger</div>
 
     <div class="vorwort">
@@ -162,6 +208,7 @@
         mythischen Geschichten und Helden bis hin zu ihren Alltag. 
         Entdecke die epochemachenden Aspekte des Wikingerzeitalters und erfahre mehr über ihre legendären Expeditionen. Bereit, die Reise in die Welt 
         der Wikinger anzutreten? Tauche ein und erlebe die Faszination dieser fesselnden historischen Ära.
+    </div>
     </div>
 
 
