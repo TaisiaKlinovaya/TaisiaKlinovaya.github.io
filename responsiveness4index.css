@@ -1,7 +1,47 @@
 
 @media (max-width: 1024px){
     .middlebox{
-        min-width: 70%;
-        min-height: 40%;
+        min-width: 80vw !important;
+        min-height: 30vw !important;
+    }
+    .headline1{
+        width: 37% !important;
+        font-size: 1.5vw !important;
+    }
+    .links{
+        font-size: 1.5vw !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .backgpart{
+        display: none;
+    }
+    .middlebox{
+        min-width: 80% !important;
+        min-height: 70% !important;
+    }
+    .PC{
+        display: none;
+    }
+    .links{
+        font-size: 3vw !important;
+        width: 50% !important;
+    }
+}
+@media (max-width: 426px){
+    .middlebox{
+        top: 50% !important;
+
+        min-height: 80% !important;
+    }
+    .headline1{
+        top: 0% !important;
+        min-width: 100% !important;
+        max-height: 20%!important;
+    }
+    .links{
+        align-items: center;
+        width: 100% !important;
     }
 }
