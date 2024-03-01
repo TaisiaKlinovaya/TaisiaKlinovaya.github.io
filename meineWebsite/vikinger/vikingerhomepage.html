@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSSFiles/NavFoot.css">
+    <link rel="stylesheet" href="CSSFiles/Responsiveness4wikings.css">
     <title>Vikinger Home Page</title>
 
     <style>
@@ -15,27 +16,41 @@
             background-color: rgb(107, 107, 107);
             z-index: 0;
             margin: 0%;
+
+            height: 50vw;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+            z-index: 100;
         }
 
         .headlineV{
             float: left;
-            font-size: 100px;
-            width: 42.5%;
-            padding: 40px;
-            padding-left: 70px;
+
+            font-size: 7vw;
             color: gainsboro;
             text-shadow: 2px 3px black;
             font-family: gothicFont;
+
+            width: 42.5%;
+            padding-left: 3vw;
+            margin-top: 3vw;
+            margin-bottom: 3vw;
             
         }
         .vorwort{
-            font-size: 20px;
             float: right;
-            width: 35%;
-            margin-top: 70px;
-            margin-right: 150px;
+
+            font-size: 1.3vw;
             color: gainsboro;
             text-shadow: 2px 1px black;
+
+            width: 35%;
+            margin-top: 5vw;
+            margin-right: 6vw;
         }
 
         @keyframes circularMotion {
@@ -52,52 +67,69 @@
         transform: translateY(3%);
          }
         }
+
+        .bottom{
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            bottom: 25%;
+            max-height: 50%;
+        }
+
         .schatten{
-            margin-bottom: -440px;
-            z-index: 0;
+            top: -3%;
+            max-width: 100%;
+
+            z-index: -100;
+            position: absolute;
+
             animation: circularMotion 5s linear infinite;
-            position: relative;
-            width: 100%;
         }
 
         .welle{
             margin: 0px;
             padding: 0px;
-            z-index: 1;
-            animation: circularMotion 5s linear infinite;
             width:100%;
-            position:relative;
-            margin-top: 20px;
             
+            z-index: 7;
+
+            animation: circularMotion 5s linear infinite;
         }
+
 
         .box4themen{
             z-index: 2;
-            background:linear-gradient(to top, #203090, #8B8BC3);
             display: block;
-            height: 600px;
-            margin-top: -100px;
-            padding-bottom: 40px;
-            text-align: center;
-            position: relative;
+            position: absolute;
 
+            background:linear-gradient(to top, #203090, #8B8BC3);
+            text-align: center;
+
+            
+            margin-top: -8vw;
+            padding-bottom: 5%;
+            height: 100%;
         }
 
         .textbox{
             z-index: 3;
             display: inline-flex;
+
             font-family:gothicFont;
             font-size: 35px;
-            padding: 30px;
             background: radial-gradient(#5e5e5e 60%, #414141);
-            flex-wrap: wrap;
-            margin: 20px;
-            width: 40%;
-            height: 200px;
-            justify-content: center;
-            align-content: center;
             color: gainsboro;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+            justify-content: center;
+
+            padding: 2vw;
+            margin: 1vw;
+            width: 40%;
+            height: 25%;
+            
+        }
+        .textbox > p{
+            align-self: center;
         }
         .textbox:hover{
             transform:scale(0.95);
@@ -132,19 +164,23 @@
         der Wikinger anzutreten? Tauche ein und erlebe die Faszination dieser fesselnden historischen Ära.
     </div>
 
+
+<div class="bottom">
     <img src="Bilder/Welle4Schatten.png" alt="Schatten" class="schatten">
     <img src="Bilder/Welle4.png" alt="welle" class="welle">
 
     <section class="box4themen">
-        <div class="textbox" onclick="window.location.href = 'religion.html';">Nordische Mythologie</div>
-        <div class="textbox" onclick="window.location.href = 'alltag.html';">Alltag der Wikinger</div>
-        <div class="textbox" onclick="window.location.href = 'helden.html';">Helden und bedeutende Personen</div>
-        <div class="textbox" onclick="window.location.href = 'quellen.html';">Quellen für die Texte</div>
+        <div class="textbox" onclick="window.location.href = 'religion.html';"><p>Nordische Mythologie</p></div>
+        <div class="textbox" onclick="window.location.href = 'alltag.html';"><p>Alltag der Wikinger</p></div>
+        <div class="textbox" onclick="window.location.href = 'helden.html';"><p>Bedeutende Personen</p></div>
+        <div class="textbox" onclick="window.location.href = 'quellen.html';"><p>Quellen für die Texte</p></div>
     </section>
 
-    <footer>
-        <p> Projekt von Taisia Klinovaya bbm3h23akl, Januar-Februar 2024</p>
-    </footer>
 </body>
+</div>
+
+<footer>
+    <p> Projekt von Taisia Klinovaya bbm3h23akl, Januar-Februar 2024</p>
+</footer>
 
 </html>
