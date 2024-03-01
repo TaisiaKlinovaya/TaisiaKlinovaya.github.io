@@ -1,0 +1,5 @@
+@media(max-width: 1024px){
+    .vorwort{
+        font-size: 1.9vw !important;
+    }
+}
