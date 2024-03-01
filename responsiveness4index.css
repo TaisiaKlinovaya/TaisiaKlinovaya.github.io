@@ -1,11 +1,7 @@
 
-@media (max-width: 1337px) {
+@media (max-width: 1024px){
     .middlebox{
-        font-size: smaller;
-    }
-}
-@media(max-width: 1110px) {
-    .middlebox{
-        font-size: small;
+        height: 1px;
+        width: 1px;
     }
 }
